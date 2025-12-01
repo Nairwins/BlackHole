@@ -9,8 +9,8 @@ This repository contains **three high-end black hole simulations** in **C++** us
 
 ## 🚀 Simulations
 
-### 3D Ray-Marched Black Hole
-- **File:** `BlackHoleSimulation1.cpp`
+### Ton618 Black Hole Realistic Simulation
+- **File:** `Ton618.cpp`
 - **Features:**
   - Volumetric accretion disk with Doppler effect
   - Grid floor & starry background
@@ -23,7 +23,7 @@ This repository contains **three high-end black hole simulations** in **C++** us
 ---
 
 ### 3D Particle Rays Around a Black Hole
-- **File:** `BlackHoleSimulation2.cpp`
+- **File:** `BlackHole3D.cpp`
 - **Features:**
   - Particle-based light rays
   - Trails show light paths
@@ -36,7 +36,7 @@ This repository contains **three high-end black hole simulations** in **C++** us
 ---
 
 ### 2D Schwarzschild Ray Tracing
-- **File:** `BlackHoleSimulation3.cpp`
+- **File:** `BlackHole2D.cpp`
 - **Features:**
   - 2D visualization of null geodesics
   - Ray trails falling into the event horizon

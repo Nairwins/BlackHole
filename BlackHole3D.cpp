@@ -8,6 +8,8 @@
 #include <vector>
 #include <iostream>
 
+#include "Calculus.cu"
+
 // ------------------- Config -------------------
 const int GRID_SIZE = 50;
 const float SIMULATION_G = 1.0f;       

@@ -267,7 +267,7 @@ int main(){
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR,3);
     glfwWindowHint(GLFW_OPENGL_PROFILE,GLFW_OPENGL_CORE_PROFILE);
     
-    GLFWwindow* window = glfwCreateWindow(1280, 720, "Simulation (Press R to Reset)", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(1280, 720, "3D BlackHole Simulation", NULL, NULL);
     glfwMakeContextCurrent(window);
     glfwSetCursorPosCallback(window,cursor_position_callback);
     glfwSetMouseButtonCallback(window,mouse_button_callback);
@@ -292,9 +292,9 @@ int main(){
 
     // Initialize Rays
     std::vector<RayPoint> rays;
-    int cols = 50;
-    int rows = 50;
-    float separation = 2.0f;
+    int cols = 25;
+    int rows = 25;
+    float separation = 1.0f;
 
     for(int i=0; i<rows; i++){
         for (int j=0; j<cols; j++){

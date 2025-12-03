@@ -8,7 +8,7 @@
 #include <vector>
 #include <iostream>
 
-#include "Calculus.cu"
+#include "Calculus.h"
 
 // ------------------- Config -------------------
 const int GRID_SIZE = 50;
